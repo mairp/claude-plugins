@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mairp",
+  "description": "Marlon De Paz's Claude Code plugins — practical tools for AI infrastructure, security, and agent operations.",
+  "owner": {
+    "name": "mairp",
+    "email": "oec.valle.art@gmail.com",
+    "url": "https://mairp.ai"
+  },
+  "plugins": [
+    {
+      "name": "antares-scan",
+      "description": "Fast, free, first-pass security smell test. Point a tiny local LLM (antares-1b, a ~2GB Granite-4.0 fine-tune) at a folder to get cheap vulnerability leads across a codebase in seconds — before a deeper audit. A triage aid, NOT a substitute for Semgrep, CodeQL, or Bandit.",
+      "author": {
+        "name": "mairp",
+        "email": "oec.valle.art@gmail.com"
+      },
+      "category": "security",
+      "tags": ["security", "sast", "triage", "local-llm", "code-review"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mairp/antares-scan.git",
+        "ref": "master"
+      },
+      "homepage": "https://github.com/mairp/antares-scan"
+    }
+  ]
+}
