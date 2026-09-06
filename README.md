@@ -28,4 +28,4 @@ Install a single plugin, e.g.:
 ## License
 
 Each plugin carries its own license (see its repository). This marketplace
-catalog is MIT.
+catalog is Apache-2.0.
