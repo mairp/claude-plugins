@@ -16,13 +16,140 @@
         "email": "oec.valle.art@gmail.com"
       },
       "category": "security",
-      "tags": ["security", "sast", "triage", "local-llm", "code-review"],
+      "tags": [
+        "security",
+        "sast",
+        "triage",
+        "local-llm",
+        "code-review"
+      ],
       "source": {
         "source": "url",
         "url": "https://github.com/mairp/antares-scan.git",
         "ref": "master"
       },
       "homepage": "https://github.com/mairp/antares-scan"
+    },
+    {
+      "name": "mixture-of-loops",
+      "description": "Derive a provenance-bound launch contract and an unattended Specstride pipeline from GitHub Spec Kit artifacts. Sources are pinned by SHA-256; editing a spec after derivation blocks the launch until the contract is regenerated.",
+      "author": {
+        "name": "mairp",
+        "email": "oec.valle.art@gmail.com"
+      },
+      "category": "development",
+      "tags": [
+        "spec-kit",
+        "spec-driven",
+        "specstride",
+        "pipelines"
+      ],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mairp/mixture-of-loops.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/mairp/mixture-of-loops",
+      "strict": false,
+      "skills": [
+        "./skills/mixture-of-loops"
+      ]
+    },
+    {
+      "name": "qmd-recall",
+      "description": "Recall from and write to a shared qmd memory gateway, so every agent in a fleet reads and adds to the same local RAG memory.",
+      "author": {
+        "name": "mairp",
+        "email": "oec.valle.art@gmail.com"
+      },
+      "category": "productivity",
+      "tags": [
+        "memory",
+        "rag",
+        "mcp",
+        "qmd"
+      ],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mairp/qmd-gateway.git",
+        "ref": "master"
+      },
+      "homepage": "https://github.com/mairp/qmd-gateway",
+      "strict": false,
+      "skills": [
+        "./skills/qmd-recall"
+      ]
+    },
+    {
+      "name": "gpu-ops",
+      "description": "Operate an RTX 3090 Thunderbolt eGPU and the local models served on it: status, safe drain and power-off, power-up, and model load checks.",
+      "author": {
+        "name": "mairp",
+        "email": "oec.valle.art@gmail.com"
+      },
+      "category": "devops",
+      "tags": [
+        "gpu",
+        "egpu",
+        "local-llm",
+        "llama.cpp"
+      ],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mairp/gpu_rtx_3090.git",
+        "ref": "master"
+      },
+      "homepage": "https://github.com/mairp/gpu_rtx_3090",
+      "strict": false,
+      "skills": [
+        "./skills/gpu-ops",
+        "./skills/local-model-ops"
+      ]
+    },
+    {
+      "name": "video-to-deck",
+      "description": "Turn videos into Marp slide decks (PPTX, PDF, HTML) with local Whisper, OCR and a fresh agent per video.",
+      "author": {
+        "name": "mairp",
+        "email": "oec.valle.art@gmail.com"
+      },
+      "category": "productivity",
+      "tags": [
+        "video",
+        "slides",
+        "marp",
+        "whisper"
+      ],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mairp/video-to-deck.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/mairp/video-to-deck",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "speckit-batch",
+      "description": "Run a Spec Kit command (analyze, clarify, plan, ...) over a range of specs on a chosen harness, with the model and reasoning effort pinned per run, sequentially or several features in parallel.",
+      "author": {
+        "name": "mairp",
+        "email": "oec.valle.art@gmail.com"
+      },
+      "category": "development",
+      "tags": [
+        "spec-kit",
+        "spec-driven",
+        "batch",
+        "headless"
+      ],
+      "source": "./plugins/speckit-batch",
+      "strict": false,
+      "skills": [
+        "./skills/speckit-batch"
+      ]
     }
   ]
 }
