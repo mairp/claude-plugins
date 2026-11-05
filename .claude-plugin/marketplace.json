@@ -150,6 +150,29 @@
       "skills": [
         "./skills/speckit-batch"
       ]
+    },
+    {
+      "name": "specstride",
+      "description": "Development governance for coding agents: takes a Spec Kit feature to done, phase by phase, with the tests run by the engine and an independent reviewer that must approve each phase before it is signed and committed.",
+      "author": {
+        "name": "mairp",
+        "email": "oec.valle.art@gmail.com"
+      },
+      "category": "development",
+      "tags": [
+        "spec-kit",
+        "spec-driven",
+        "code-review",
+        "governance",
+        "agents"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mairp/specstride-plugin.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/mairp/specstride-plugin"
     }
   ]
 }
